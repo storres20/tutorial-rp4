@@ -9,7 +9,7 @@
 
 </div>
 
-PASO 1: Insertar la memoria Micro SD en el Raspberry Pi 4
+`PASO 1:` Insertar la `memoria Micro SD` en el `Raspberry Pi 4`
 
 <div align="center">
 
@@ -17,7 +17,7 @@ PASO 1: Insertar la memoria Micro SD en el Raspberry Pi 4
   
 </div>
 
-PASO 2: Conexiones del Raspberry Pi 4
+`PASO 2:` Conexiones del `Raspberry Pi 4`
 
 <div align="center">
 
@@ -25,7 +25,7 @@ PASO 2: Conexiones del Raspberry Pi 4
   
 </div>
 
-PASO 3: Conectar la fuente de poder en el puerto USB-C
+`PASO 3:` Conectar la `fuente de poder` en el puerto USB-C
 
 <div align="center">
 
@@ -33,7 +33,7 @@ PASO 3: Conectar la fuente de poder en el puerto USB-C
   
 </div>
 
-PASO 4: Conectar el cable micro HDMI-HDMI en el puerto micro HDMI hacia un monitor con entrada HDMI
+`PASO 4:` Conectar el `cable micro HDMI-HDMI` en el puerto micro HDMI hacia un monitor con entrada HDMI
 
 <div align="center">
 
@@ -43,7 +43,7 @@ PASO 4: Conectar el cable micro HDMI-HDMI en el puerto micro HDMI hacia un monit
   
 </div>
 
-PASO 5: Conectar teclado y mouse cableado o inalambrico en puerto USB 2 o USB 3
+`PASO 5:` Conectar `teclado y mouse` cableado o inalambrico en puerto USB 2 o USB 3
 
 <div align="center">
 
@@ -51,9 +51,9 @@ PASO 5: Conectar teclado y mouse cableado o inalambrico en puerto USB 2 o USB 3
   
 </div>
 
-Ahora se procederá con la instalacion y configuracion del S.O Raspbian desde el Raspberry Pi 4
+<h2>Ahora se procederá con la instalacion y configuracion del S.O Raspbian desde el Raspberry Pi 4</h2>
 
-PASO 6: Conectar Fuente de poder y encender monitor
+`PASO 6:` Conectar Fuente de poder y encender monitor
 
 <div align="center">
 
@@ -61,7 +61,7 @@ PASO 6: Conectar Fuente de poder y encender monitor
   
 </div>
 
-PASO 7: Click en boton NEXT
+`PASO 7:` Click en boton `NEXT`
 
 <div align="center">
 
@@ -69,7 +69,7 @@ PASO 7: Click en boton NEXT
   
 </div>
 
-PASO 8: Click en el menu de seleccion de COUNTRY
+`PASO 8:` Click en el `menu de seleccion de COUNTRY`
 
 <div align="center">
 
@@ -77,7 +77,7 @@ PASO 8: Click en el menu de seleccion de COUNTRY
   
 </div>
 
-PASO 9: Seleccionar el PAIS de residencia (Por ejemplo: PERU)
+`PASO 9:` Seleccionar el `PAIS` de residencia (Por ejemplo: PERU)
 
 <div align="center">
 
@@ -85,7 +85,7 @@ PASO 9: Seleccionar el PAIS de residencia (Por ejemplo: PERU)
   
 </div>
 
-PASO 10: Click en el menu de seleccion de LANGUAGE
+`PASO 10:` Click en el `menu de seleccion de LANGUAGE`
 
 <div align="center">
 
@@ -93,7 +93,7 @@ PASO 10: Click en el menu de seleccion de LANGUAGE
   
 </div>
 
-PASO 11: Seleccionar un lenguaje (Por ejemplo: SPANISH)
+`PASO 11:` Seleccionar un `lenguaje` (Por ejemplo: SPANISH)
 
 <div align="center">
 
@@ -101,7 +101,7 @@ PASO 11: Seleccionar un lenguaje (Por ejemplo: SPANISH)
   
 </div>
 
-PASO 12: Click en menu de seleccion de TIMEZONE y seleccionar un TIMEZONE (Por ejemplo: LIMA)
+`PASO 12:` Click en `menu de seleccion de TIMEZONE` y seleccionar un TIMEZONE (Por ejemplo: LIMA)
 
 <div align="center">
 
@@ -109,7 +109,7 @@ PASO 12: Click en menu de seleccion de TIMEZONE y seleccionar un TIMEZONE (Por e
   
 </div>
 
-PASO 13: Click en boton NEXT
+`PASO 13:` Click en boton `NEXT`
 
 <div align="center">
 
@@ -117,7 +117,7 @@ PASO 13: Click en boton NEXT
   
 </div>
 
-PASO 14: Esperar unos segundos ...
+`PASO 14:` Esperar unos segundos ...
 
 <div align="center">
 
@@ -133,7 +133,7 @@ Se visualizará lo siguiente:
   
 </div>
 
-PASO 15: Ingresar Username (Usuario) y Password (Contraseña) y click en boton NEXT
+`PASO 15:` Ingresar `Username (Usuario)` y `Password (Contraseña)` y click en boton `NEXT`
 
 <div align="center">
 
@@ -141,7 +141,7 @@ PASO 15: Ingresar Username (Usuario) y Password (Contraseña) y click en boton N
   
 </div>
 
-PASO 16: Click en boton NEXT
+`PASO 16:` Click en boton `NEXT`
 
 <div align="center">
 
@@ -157,7 +157,7 @@ Se visualizará las redes wifi locales:
   
 </div>
 
-PASO 17: Seleccionar una red wifi y click en NEXT
+`PASO 17:` Seleccionar una red wifi y click en `NEXT`
 
 <div align="center">
 
@@ -165,7 +165,7 @@ PASO 17: Seleccionar una red wifi y click en NEXT
   
 </div>
 
-PASO 18: Ingresar Password (Contraseña) y click en boton NEXT
+`PASO 18:` Ingresar `Password (Contraseña)` y click en boton `NEXT`
 
 <div align="center">
 
@@ -173,7 +173,7 @@ PASO 18: Ingresar Password (Contraseña) y click en boton NEXT
   
 </div>
 
-PASO 19: Click en boton NEXT
+`PASO 19:` Click en boton `NEXT`
 
 <div align="center">
 
@@ -191,7 +191,7 @@ Esperar unos segundos ...
   
 </div>
 
-PASO 20: Click en boton OK
+`PASO 20:` Click en boton `OK`
 
 <div align="center">
 
@@ -199,7 +199,7 @@ PASO 20: Click en boton OK
   
 </div>
 
-PASO 21: Click en boton RESTART
+`PASO 21:` Click en boton `RESTART`
 
 <div align="center">
 
@@ -207,7 +207,7 @@ PASO 21: Click en boton RESTART
   
 </div>
 
-Finalmente: Despues del reinicio, se visualizará el Fondo de Escritorio e iconos del S.O Raspbian
+`Finalmente:` Despues del reinicio, se visualizará el `Fondo de Escritorio e iconos del S.O Raspbian`
 
 <div align="center">
 
@@ -219,20 +219,55 @@ Finalmente: Despues del reinicio, se visualizará el Fondo de Escritorio e icono
   
 </div>
 
-Nota:
+`Nota:`
 
 Hasta aquí se culmina con la instalación del S.O Raspbian y puede ser usado
 
-Nota: 
+`Nota:`
 
-La configuracion actual del teclado esta en INGLES por ello requiere cambiar el teclado hacia ESPAÑOL
+La configuracion actual del teclado esta en INGLES por ello requiere cambiar la configuracion hacia teclado en ESPAÑOL
 
-PASO 1: 
+`PASO 1: `
 
 ```
 Click en el icono de Raspberry 🍓, que encuentra en la parte superior izquierda
 Click en "Preferences"
 Click en "Keyboard and Mouse"
 ```
+![image](https://user-images.githubusercontent.com/81504385/222225008-51a233f1-c8eb-4096-a3b8-732e60f5eb44.png)
 
 Se visualizará lo siguiente:
+
+![image](https://user-images.githubusercontent.com/81504385/222226193-c23dcc75-f521-4e96-945b-a6ab1a8c2a17.png)
+
+`PASO 2:` Click en pestaña `KEYBOARD`
+
+![image](https://user-images.githubusercontent.com/81504385/222226068-4530c1b0-90c3-42c1-9e96-a481df482fe4.png)
+
+`PASO 3:` Click en boton `KEYBOARD LAYOUT`
+
+![image](https://user-images.githubusercontent.com/81504385/222226490-9175dd9b-15a9-4ab0-a163-d009536b00c5.png)
+
+Se visualizará lo siguiente:
+
+![image](https://user-images.githubusercontent.com/81504385/222226730-c36f26ed-28e1-46b2-9d73-97695b059fb7.png)
+
+`PASO 4:` Click en `menu de seleccion de LAYOUT` y seleccionar SPANISH (Latin American)
+
+![image](https://user-images.githubusercontent.com/81504385/222227278-dee3fc9e-8124-4ddd-a33e-ad43a18aa06e.png)
+
+![image](https://user-images.githubusercontent.com/81504385/222227026-0ae22efb-de6f-4b8d-afce-9720c8ff6403.png)
+
+`PASO 5:` Click en boton `OK`
+
+![image](https://user-images.githubusercontent.com/81504385/222227405-bd07bcf1-5295-4468-8b72-92c16d9bdb7b.png)
+
+`Finalmente:` Click en boton `OK`
+
+![image](https://user-images.githubusercontent.com/81504385/222227683-22cd9413-7d04-45b1-b19a-e8ed68d76f8a.png)
+
+`Nota:`
+
+La configuracion actual del teclado es SPANISH. Ello permite utilizar las letras Ñ y otros
+
+Hasta aquí culmina esta etapa, favor de continuar con la siguiente etapa 🍓
