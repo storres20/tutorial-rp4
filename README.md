@@ -55,6 +55,8 @@
 - **[Download Raspbian OS]**
 - **[Flash SD card]**
 - **[OS Installation]**
+- **[Led blink]**
+- **[LCD]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,8 +79,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 ```sh
- install nodejs
- install git
+ install Raspbian OS
 ```
 
 ### Setup
@@ -86,7 +87,6 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd tutorial-rp4
   git clone https://github.com/storres20/tutorial-rp4.git
 ```
 
@@ -96,7 +96,6 @@ Install this project with:
 
 ```sh
   cd tutorial-rp4
-  npm install
 ```
 
 ### Usage
@@ -136,7 +135,7 @@ You can deploy this project using:
 👤 **ITALO**
 
 - GitHub: [@storres20](https://github.com/storres20)
-- Portfolio: [Portfolio](https://myport20.netlify.app/)
+- Portfolio: [Portfolio](https://lonkan-portfolio.netlify.app/)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/italo-lon-kan)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
