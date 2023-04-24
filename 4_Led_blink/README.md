@@ -9,7 +9,7 @@
 
 </div>
 
-Nota: Este README contiene el codigo para el Led_blink (parpadeo del Led) y además un video demostrativo
+`Nota:` Este README contiene el codigo para el Led_blink (parpadeo del Led) y además un video demostrativo
 
 `Paso 1:` Conocer e identificar la distribucion de Pines de Salida (PINOUT) del Raspberry Pi
 
