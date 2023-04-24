@@ -111,6 +111,41 @@ except KeyboardInterrupt:
 
 `Paso 10:` Para detener la ejecucion, presionar `Ctrl + C`
 
+`Paso 11:` Componentes electronicos
+
+* 02 Leds - el color puede ser cualquiera
+
+* 02 resistencias de 1k ohms (marron-negro-negro)
+
+* 01 juego de cables macho-hembra
+
+* 01 protoboard
+
+* 01 raspberry pi
+
+`imagen referencial`
+
+![Screenshot from 2023-04-24 00-24-10](https://user-images.githubusercontent.com/81504385/233906867-81ad1fdf-4c41-4f0b-9264-b25030f9d7ba.png)
+
+`Paso 12:` Conexiones y cableado
+
+Conectar un cable macho-hembra desde algun `pin 5v Power del Raspberry Pi` hacia la linea general Positiva del `Protoboard`
+
+Conectar un cable macho-hembra desde algun `pin GROUND del Raspberry Pi` hacia la linea general Negativa del `Protoboard`
+
+Conectar un cable macho-hembra desde el `pin GPIO 7 del Raspberry Pi` hacia el `Protoboard`
+
+Conectar un cable macho-hembra desde el `pin GPIO 12 del Raspberry Pi` hacia el `Protoboard`
+
+`1er Led`
+
+Conectar en serie el `pin GPIO 7`, el Led, la resistencia de 1k ohm y GROUND `(similar a la imagen referencial)`
+
+`2do Led`
+
+Conectar en serie el `pin GPIO 12`, el Led, la resistencia de 1k ohm y GROUND `(similar a la imagen referencial)`
+
+
 ## Video demostrativo
 
 https://user-images.githubusercontent.com/81504385/230756887-a69dd50a-6f86-4fc7-bc26-a0756c310394.mp4
