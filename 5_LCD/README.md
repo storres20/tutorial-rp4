@@ -35,7 +35,7 @@ Ver la siguiente imagen para mayor detalle
 
 `Paso 4:` Clonar repositorio del proyecto LCD
 
-Autor: [@the-raspberry-pi-guy](https://github.com/the-raspberry-pi-guy)
+- Autor: [@the-raspberry-pi-guy](https://github.com/the-raspberry-pi-guy)
 
 Ingresar el siguiente comando en la Terminal
 
@@ -89,7 +89,30 @@ A continuacion en la pantalla LCD podra visualizar lo siguiente:
 
 ![demo_simple_strings](https://user-images.githubusercontent.com/81504385/234498573-2cdc044f-7dd2-4cd1-bad7-7cf1b0613b2e.jpg)
 
+- Author: [@Tomtom0201](https://github.com/Tomtom0201)
 
+`Paso 8:` Ejecutamos las DEMOS `(por ejemplo: demo_clock_and_IP.py)`
 
+`imagen del total de DEMOS en la carpeta lcd`
 
+![Screenshot from 2023-04-26 01-59-23](https://user-images.githubusercontent.com/81504385/234495090-1a39be0b-0883-481c-9959-88f8d5e925ac.png)
 
+Para ejecutar el archivo `demo_clock_and_IP.py` ingresamos el siguiente comando en la terminal
+
+```
+python demo_clock_and_IP.py
+```
+
+![Screenshot from 2023-04-26 02-27-35](https://user-images.githubusercontent.com/81504385/234501572-0061ed3d-3174-4535-972a-030dcabf815d.png)
+
+A continuacion en la pantalla LCD podra visualizar lo siguiente:
+
+![demo_ip](https://user-images.githubusercontent.com/81504385/234501713-edd2a740-42e2-4e9c-91ea-4a8b8c181538.jpg)
+
+`Nota:` Para mayores detalles y DEMOS, visitar el siguiente repositorio
+
+```
+https://github.com/the-raspberry-pi-guy/lcd
+```
+
+`Paso 9:` Componentes electronicos
