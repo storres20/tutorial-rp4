@@ -147,10 +147,5 @@ Conectar un cable macho-hembra desde el `pin GPIO 3 (I2C1 SCL) del Raspberry Pi`
 
 `Nota:` Para mayores detalles del cableado y conexiones, puede visualizar el VIDEOTUTORIAL del Autor
 
-[Raspberry Pi - Mini LCD Display Tutorial](https://www.youtube.com/watch?v=fR5XhHYzUK0)
+VIDEOTUTORIAL: [Raspberry Pi - Mini LCD Display Tutorial](https://www.youtube.com/watch?v=fR5XhHYzUK0)
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=fR5XhHYzUK0">
-    <img src="imgs/thumb-yt-rpiguy-lcd-tutorial.png" width="80%">
-  </a>
-</p>
