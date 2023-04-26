@@ -68,7 +68,7 @@ except KeyboardInterrupt:
 
 `Paso 6:` Codigo del Led_blink en GEANY
 
-![Screenshot from 2023-04-23 23-44-40](https://user-images.githubusercontent.com/81504385/233902070-eaf855dc-ee21-4ad7-82dd-09d7472f0d47.png)
+![Screenshot from 2023-04-26 01-39-34](https://user-images.githubusercontent.com/81504385/234490732-8efab752-ecc0-4f98-8f04-50aaac1af473.png)
 
 `Paso 7:` Explicacion del codigo
 
