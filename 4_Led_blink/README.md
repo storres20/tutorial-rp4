@@ -117,7 +117,7 @@ except KeyboardInterrupt:
 
 * 02 resistencias de 1k ohms (marron-negro-negro)
 
-* 01 juego de cables macho-hembra
+* Juegos de cables macho-hembra
 
 * 01 protoboard
 
