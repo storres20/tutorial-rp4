@@ -109,6 +109,8 @@ A continuacion en la pantalla LCD podra visualizar lo siguiente:
 
 ![demo_ip](https://user-images.githubusercontent.com/81504385/234501713-edd2a740-42e2-4e9c-91ea-4a8b8c181538.jpg)
 
+- Author: [@Sierra007117](https://github.com/Sierra007117)
+
 `Nota:` Para mayores detalles y DEMOS, visitar el siguiente repositorio
 
 ```
@@ -116,3 +118,39 @@ https://github.com/the-raspberry-pi-guy/lcd
 ```
 
 `Paso 9:` Componentes electronicos
+
+* Pantalla LCD 16x2
+
+![lcd](https://user-images.githubusercontent.com/81504385/234505492-fa4f48e6-745c-4d0b-8fe4-41a9b1cc34f1.jpg)
+
+* Adaptador pantalla LCD 16×2 serial I2C
+ 
+![i2c](https://user-images.githubusercontent.com/81504385/234505534-dc940cdd-23fd-458d-99c6-57c885494c0f.jpg)
+
+* Juegos de cables hembra-hembra
+
+![cable+hembra-hembra](https://user-images.githubusercontent.com/81504385/234506180-1b0bb9eb-cb00-497a-9f0f-ce7e36ee54c0.jpg)
+
+* Imagen final
+
+![i2c+lcd+cables](https://user-images.githubusercontent.com/81504385/234505784-ce7694a3-9d4a-42b4-909c-a8224650b126.jpg)
+
+`Paso 10:` Conexiones y cableado
+
+Conectar un cable hembra-hembra desde algun `pin GROUND del Raspberry Pi` hacia el `pin GND del adaptador serial I2C`
+
+Conectar un cable hembra-hembra desde algun `pin 5v Power del Raspberry Pi` hacia el `pin VCC del adaptador serial I2C`
+
+Conectar un cable macho-hembra desde el `pin GPIO 2 (I2C1 SDA) del Raspberry Pi` hacia el `pin SDA del adaptador serial I2C`
+
+Conectar un cable macho-hembra desde el `pin GPIO 3 (I2C1 SCL) del Raspberry Pi` hacia el `pin SCL del adaptador serial I2C`
+
+`Nota:` Para mayores detalles del cableado y conexiones, puede visualizar el VIDEOTUTORIAL del Autor
+
+[Raspberry Pi - Mini LCD Display Tutorial](https://www.youtube.com/watch?v=fR5XhHYzUK0)
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=fR5XhHYzUK0">
+    <img src="imgs/thumb-yt-rpiguy-lcd-tutorial.png" width="80%">
+  </a>
+</p>
