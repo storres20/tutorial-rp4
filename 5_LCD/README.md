@@ -35,6 +35,8 @@ Ver la siguiente imagen para mayor detalle
 
 `Paso 4:` Clonar repositorio del proyecto LCD
 
+Autor: [@the-raspberry-pi-guy](https://github.com/the-raspberry-pi-guy)
+
 Ingresar el siguiente comando en la Terminal
 
 ```
@@ -61,14 +63,33 @@ ls
 
 ![Screenshot from 2023-04-26 01-59-23](https://user-images.githubusercontent.com/81504385/234495090-1a39be0b-0883-481c-9959-88f8d5e925ac.png)
 
-
-`Paso 5:` Ejecutamos el script de instalacion
+`Paso 6:` Ejecutamos el script de instalacion
 
 ```
 sudo ./install.sh
 ```
 
 ![Screenshot from 2023-04-26 01-51-27](https://user-images.githubusercontent.com/81504385/234493393-e178873d-d100-49c2-8808-2ec535ad751d.png)
+
+`Paso 7:` Ejecutamos las DEMOS `(por ejemplo: demo_lcd.py)`
+
+`imagen del total de DEMOS en la carpeta lcd`
+
+![Screenshot from 2023-04-26 01-59-23](https://user-images.githubusercontent.com/81504385/234495090-1a39be0b-0883-481c-9959-88f8d5e925ac.png)
+
+Para ejecutar el archivo `demo_lcd.py` ingresamos el siguiente comando en la terminal
+
+```
+python demo_lcd.py
+```
+
+![Screenshot from 2023-04-26 02-16-21](https://user-images.githubusercontent.com/81504385/234499011-03a7b158-ca7d-4090-96a2-e3821f261609.png)
+
+A continuacion en la pantalla LCD podra visualizar lo siguiente:
+
+![demo_simple_strings](https://user-images.githubusercontent.com/81504385/234498573-2cdc044f-7dd2-4cd1-bad7-7cf1b0613b2e.jpg)
+
+
 
 
 
