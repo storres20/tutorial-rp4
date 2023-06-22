@@ -25,15 +25,36 @@
 
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/8f0edae6-8f50-4ead-84d0-d3679eff6297)
 
-En este ejemplo se ha utilizado:
+### En este ejemplo se ha utilizado un `ARCHIVO`:
 
 @reboot python /home/rasbp4/puenteh/puenteh.py
 
 `@reboot` = Es el comando que indica la ejecucion del archivo o script durante el booteo
 
-`python` = Es para indicar que el archivo o script, a ser ejecutado, es de la naturaleza python
+`python` = Es para indicar que el `archivo`, a ser ejecutado, es de la naturaleza python
 
-`/home/rasbp4/puenteh/puenteh.py` = Es la ruta donde se ubica el archivo o script
+`/home/rasbp4/puenteh/puenteh.py` = Es la ruta donde se ubica el `archivo`
+
+### Para un ejemplo con un `SCRIPT`:
+
+@reboot bash /home/rasbp4/tflite1/italotflite1.sh
+
+`@reboot` = Es el comando que indica la ejecucion del archivo o script durante el booteo
+
+`bash` = Es para indicar que se está ejecutando un `script`
+
+`/home/rasbp4/tflite1/italotflite1.sh` = Es la ruta donde se ubica el `script`
+
+`Nota:` Contenido de `italotflite1.sh`
+
+```
+#!/bin/bash
+# execute a sample line
+source tflite1-env/bin/activate
+python3 TFLite_detection_video.py --modeldir=sample --video=test.mp4
+```
+
+##
 
 `PASO 5:` Presionar `Ctrl + O` y seguidamente presionar `tecla ENTER`, para guardar los cambios
 
@@ -47,8 +68,3 @@ En este ejemplo se ha utilizado:
 * Si la ejecucion de estos archivos o scripts tienen por objetivo mostrar interfaces graficas o abrir ventanas visuales en el Sistema Operativo, estas no podrán ser mostradas en la pantalla principal
 * Salvo usted logré configurar una 2da pantalla y realizar las configuraciones del caso para mostrar interfaces graficas y otros en esta 2da pantalla
 * Los archivos o scripts a ejecutar lo harán de forma exitosa con dispositivos o perifericos externos como: Pantalla LCD, circuitos electronicos, motores DC, etc.
-
-
-
-
-
