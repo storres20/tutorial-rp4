@@ -39,7 +39,7 @@
 Si a los pines `7V-35V` y `GND` se les alimenta con `12V`, al estar habilitado el `5V Select Jumper`, el voltaje final de suministro al o los motores DC será de 5V
 
 `Nota`:
-Durante las pruebas de ensayo, se ha logrado alimentar los pines `7V-35V` y `GND` con la alimentacion del Raspberry PI (Se utilizó los pines `5V Power` y `Ground`). El Raspberry PI tuvo la suficiente potencia para movilizar 02 motores DC en simultaneo
+Durante las pruebas de ensayo, con el `5V Select Jumper` habilitado, se ha logrado alimentar los pines `7V-35V` y `GND` con la alimentacion del Raspberry PI (Se utilizó los pines `5V Power` y `Ground`). El Raspberry PI tuvo la suficiente potencia para movilizar 02 motores DC en simultaneo
 
 Para mayor detalle, revisar la siguiente documentacion del `Puente H - L298N`:
 
@@ -47,4 +47,131 @@ Para mayor detalle, revisar la siguiente documentacion del `Puente H - L298N`:
 https://components101.com/modules/l293n-motor-driver-module
 ```
 
-`PASO 2:` Click en la `pestaña SOFTWARE`
+`PASO 2:` Conexiones entre `Puente H - L298N` y el Raspberry PI
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/eb092a54-cf34-4b7e-81a1-bc7f7a8c4c5b)
+
+
+`PASO 3:` Se crea el archivo `puenteh.py` para el control de 02 motores DC pero no en simultaneo
+
+`Nota:`
+
+* Los pines `GPIO17` y `GPIO22` del Raspberry PI son conectados a los pines `input1` y `input2` respectivamente del `Puente H - L298N` para el control del `Motor A`
+* Los pines `GPIO23` y `GPIO24` del Raspberry PI son conectados a los pines `input3` y `input4` respectivamente del `Puente H - L298N` para el control del `Motor B`
+* Los pines `5V Power` y `GROUND` del Raspberry PI` son conectados a los pines `7V-35V` y `GND` respectivamente del `Puente H - L298N` para la alimentacion de los Motores DC
+
+### puenteh.py
+
+```
+import RPi.GPIO as gpio
+import time
+def init():
+gpio.setmode(gpio.BCM)
+gpio.setup(17, gpio.OUT, initial=gpio.LOW)
+gpio.setup(22, gpio.OUT, initial=gpio.LOW)
+gpio.setup(23, gpio.OUT, initial=gpio.LOW)
+gpio.setup(24, gpio.OUT, initial=gpio.LOW)
+
+def motora_forward(sec):
+init()
+gpio.output(17, False)
+gpio.output(22, True)
+time.sleep(sec)
+gpio.cleanup()
+
+def motora_reverse(sec):
+init()
+gpio.output(17, True)
+gpio.output(22, False)
+time.sleep(sec)
+gpio.cleanup()
+
+def motorb_forward(sec):
+init()
+gpio.output(23, False)
+gpio.output(24, True)
+time.sleep(sec)
+gpio.cleanup()
+
+def motorb_reverse(sec):
+init()
+gpio.output(23, True)
+gpio.output(24, False)
+time.sleep(sec)
+gpio.cleanup()
+
+seconds = 1
+
+print("motora_forward")
+motora_forward(seconds)
+time.sleep(seconds)
+
+print("motora_reverse")
+motora_reverse(seconds)
+time.sleep(seconds)
+
+print("motorb_forward")
+motorb_forward(seconds)
+time.sleep(seconds)
+
+print("motorb_reverse")
+motorb_reverse(seconds)
+time.sleep(seconds)
+```
+
+`PASO 4:` Se crea el archivo `puenteh2.py` para el control de 02 motores DC en simultaneo
+
+`Nota:`
+
+* Los pines `GPIO17` y `GPIO22` del Raspberry PI son conectados a los pines `input1` y `input2` respectivamente del `Puente H - L298N` para el control del `Motor A`
+* Los pines `GPIO23` y `GPIO24` del Raspberry PI son conectados a los pines `input3` y `input4` respectivamente del `Puente H - L298N` para el control del `Motor B`
+* Los pines `5V Power` y `GROUND` del Raspberry PI` son conectados a los pines `7V-35V` y `GND` respectivamente del `Puente H - L298N` para la alimentacion de los Motores DC
+
+### puenteh2.py
+
+```
+import RPi.GPIO as gpio
+import time
+def init():
+gpio.setmode(gpio.BCM)
+gpio.setup(17, gpio.OUT, initial=gpio.LOW)
+gpio.setup(22, gpio.OUT, initial=gpio.LOW)
+gpio.setup(23, gpio.OUT, initial=gpio.LOW)
+gpio.setup(24, gpio.OUT, initial=gpio.LOW)
+
+def motorab_forward(sec):
+init()
+gpio.output(17, False)
+gpio.output(22, True)
+gpio.output(23, False)
+gpio.output(24, True)
+time.sleep(sec)
+gpio.cleanup()
+
+def motorab_reverse(sec):
+init()
+gpio.output(17, True)
+gpio.output(22, False)
+gpio.output(23, True)
+gpio.output(24, False)
+time.sleep(sec)
+gpio.cleanup()
+
+seconds = 1
+
+print("motorab_forward")
+motorab_forward(seconds)
+time.sleep(seconds)
+
+print("motorab_reverse")
+motorab_reverse(seconds)
+time.sleep(seconds)
+
+print("motorab_forward")
+motorab_forward(seconds)
+time.sleep(seconds)
+
+print("motorab_reverse")
+motorab_reverse(seconds)
+time.sleep(seconds)
+```
