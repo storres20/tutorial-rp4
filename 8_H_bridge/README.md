@@ -56,9 +56,13 @@ https://components101.com/modules/l293n-motor-driver-module
 
 `Nota:`
 
+* Los pines `GPIO17` y `Nota:`
+
 * Los pines `GPIO17` y `GPIO22` del Raspberry PI son conectados a los pines `input1` y `input2` respectivamente del `Puente H - L298N` para el control del `Motor A`
 * Los pines `GPIO23` y `GPIO24` del Raspberry PI son conectados a los pines `input3` y `input4` respectivamente del `Puente H - L298N` para el control del `Motor B`
-* Los pines `5V Power` y `GROUND` del Raspberry PI` son conectados a los pines `7V-35V` y `GND` respectivamente del `Puente H - L298N` para la alimentacion de los Motores DC
+* Los pines `5V Power` y `GROUND` del Raspberry PI` son conectados a los pines `7V-35V` y `GND` respectivamente del `Puente H - L298N` para la alimentacion de los Motores DC del `Puente H - L298N` para el control del `Motor A`
+* Los pines `GPIO23` y `GPIO24` del Raspberry PI son conectados a los pines `input3` y `input4` respectivamente del `Puente H - L298N` para el control del `Motor B`
+* Los pines `5V Power` y `GROUND` del Raspberry PI son conectados a los pines `7V-35V` y `GND` respectivamente del `Puente H - L298N` para la alimentacion de los Motores DC
 
 ### puenteh.py
 
