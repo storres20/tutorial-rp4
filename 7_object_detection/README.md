@@ -48,6 +48,8 @@ sudo pip3 install virtualenv
 
 `PASO 5:` Crear el entorno virtual `tflite-env`
 
+Para ello se ejecuta el siguiente commando:
+
 ```
 python3 -m venv tflite-env
 ```
@@ -115,7 +117,7 @@ python3 TFLite_detection_image.py --modeldir=sample --image=test1.jpg
 
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/c198de66-4524-429e-8292-c118e9c7efd8)
 
-Dicha línea de comando procederá conla deteccion de objetos en la `imagen test1.jpg`
+Dicha línea de comando procederá con la deteccion de objetos en la `imagen test1.jpg`
 
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/511337ff-d274-4cce-bfae-148de7068a4b)
 
@@ -131,9 +133,15 @@ python3 TFLite_detection_image.py --modeldir=sample --imagedir=critters
 
 Dicha línea de comando procederá conla deteccion de objetos en las `imagenes bird1.jpg, bird2.jpg y bird3.jpg` de la carpeta `critters`
 
+### bird1.jpg
+
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/606d06fc-7c63-4edd-86b6-195572fa1cae)
 
+### bird2.jpg
+
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/35f2eae7-dd3b-4214-8757-8090bd636f8f)
+
+### bird3.jpg
 
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/5fb17669-1991-4644-8923-06c05850db24)
 
