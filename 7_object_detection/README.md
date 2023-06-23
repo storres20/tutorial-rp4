@@ -151,6 +151,5 @@ Dicha línea de comando procederá conla deteccion de objetos en el `video test.
 
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/0fafd1d8-487a-41fa-be1e-634d32758c61)
 
-![image](https://github.com/storres20/tutorial-rp4/assets/81504385/6536fff2-67e3-4dc6-9019-00a555b07001)
-
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/d4e0b741-2368-44cf-b275-ad29e515a1ff)
 
