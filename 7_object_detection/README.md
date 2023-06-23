@@ -101,6 +101,56 @@ Estos archivos deberan ser movidos hacia la carpeta `tflite/sample`
 
 `PASO 10:` Crear la carpeta `critters` dentro de la carpeta `tflite`
 
+En en el interior de la carpeta `critters`, copiamos `imagenes de aves`
+
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/a7be4b75-df4e-4fda-bebb-747799c6ff92)
+
+`PASO 11:` Deteccion de Objetos en IMAGEN
+
+Ejecutamos el siguiente comando:
+
+```
+python3 TFLite_detection_image.py --modeldir=sample --image=test1.jpg
+```
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/c198de66-4524-429e-8292-c118e9c7efd8)
+
+Dicha línea de comando procederá conla deteccion de objetos en la `imagen test1.jpg`
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/511337ff-d274-4cce-bfae-148de7068a4b)
+
+`PASO 12:` Deteccion de Objetos en IMAGENES dentro de una carpeta
+
+Ejecutamos el siguiente comando:
+
+```
+python3 TFLite_detection_image.py --modeldir=sample --imagedir=critters
+```
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/471c66e4-e976-4cc6-820a-1f8b49304d57)
+
+Dicha línea de comando procederá conla deteccion de objetos en las `imagenes bird1.jpg, bird2.jpg y bird3.jpg` de la carpeta `critters`
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/606d06fc-7c63-4edd-86b6-195572fa1cae)
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/35f2eae7-dd3b-4214-8757-8090bd636f8f)
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/5fb17669-1991-4644-8923-06c05850db24)
+
+`PASO 13:` Deteccion de Objetos en VIDEO
+
+Ejecutamos el siguiente comando:
+
+```
+python3 TFLite_detection_video.py --modeldir=sample --video=test.mp4
+```
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/57bd48a0-0236-49eb-9e7c-1947e24ca81c)
+
+Dicha línea de comando procederá conla deteccion de objetos en el `video test.mp4`
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/0fafd1d8-487a-41fa-be1e-634d32758c61)
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/6536fff2-67e3-4dc6-9019-00a555b07001)
 
 
