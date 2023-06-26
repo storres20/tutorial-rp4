@@ -141,7 +141,13 @@ http://magicduino.com/Images/ItemsMedia/File/7279.pdf
 
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/92dde4a9-c286-4066-8ecc-b91a734ac7f0)
 
+* Conectar el conversor USB-TTL a la PC
+* 
 
+
+
+
+https://github.com/storres20/tutorial-rp4/assets/81504385/fe57b2d5-9e63-4c3e-bdce-dbe3ccb6124f
 
 
 
