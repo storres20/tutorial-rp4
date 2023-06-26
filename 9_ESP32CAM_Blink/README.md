@@ -135,7 +135,9 @@ http://magicduino.com/Images/ItemsMedia/File/7279.pdf
 * En este caso va a depender, del voltaje con el cual el conversor USB-TTL va a alimentar al ESP32-CAM
 * `Nota:` El ESP32-CAM puede ser alimentado con 5v o 3.3v
 * Para el proyecto del Parpadeo del Led-Flash, se va a utilizar el pin de salida de 3.3v del conversor USB-TTL y el ESP32-CAM será alimentado con 3.3v
-* Se utilizará el JUMPER de color amarillo en los pines VCC y 3V3; lo cual, puede visualizar en la imagen de arriba
+* Asimismo, no se utilizará el JUMPER de color amarillo en los pines VCC y 3V3; sin embargo, se utilizará un cable adicional para alimentar al pin VCC con los 3.3v provenientes del pin 3V3
+
+
 
 
 
