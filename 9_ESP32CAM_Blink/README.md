@@ -21,7 +21,7 @@ https://lastminuteengineers.com/getting-started-with-esp32-cam/
 
 ## Configuracion del IDE de ARDUINO para agregar librerias de ESP32-CAM
 
-`Nota:` Para agregar las librerias de ESP32-CAM, debemos realizar lo siguiente
+`Nota:` El propósito de esta configuración es agregar las librerias de ESP32-CAM, para ello debemos realizar lo siguiente:
 * Abrir el IDE de ARDUINO
 * Click en `File` -> click en `Preferences...`
 
@@ -113,8 +113,8 @@ https://docs.ai-thinker.com/_media/esp32/docs/esp32_cam_sch.pdf
 
 ## Conversor USB a TTL
 
-* El propósito del conversor USB a TTL es lograr la comunicación entre el ESP32-CAM y la PC
-* Producto de esta comunicación, se lograría la programación del ESP32-CAM con el algoritmo deseado (parpadeo de led, cámara web, etc.) por medio del IDE de ARDUINO
+* El ESP32-CAM no cuenta con un puerto USB; por ello, la necesidad del conversor USB a TTL para lograr la comunicación entre el ESP32-CAM y la PC
+* Producto de esta comunicación, se lograría la programación del ESP32-CAM con el algoritmo deseado (parpadeo de led, cámara web, etc.) por medio del IDE de ARDUINO hacia el conversor USB-TTL y el ESP32-CAM
 
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/614bf6c1-39bd-4f4a-b79a-992b13b128cd)
 
@@ -127,7 +127,16 @@ Link de la documentación del conversor:
 http://magicduino.com/Images/ItemsMedia/File/7279.pdf
 ```
 
-### Jumper para 3.3v y 5v en conversor de USB a TTL
+### Jumper para 3.3v y/o 5v en conversor de USB a TTL
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/d974bf54-0aae-4345-ba84-ddb5f161f5f5)
+
+* El conversor USB-TTL presenta pines de salida de 5v y 3.3v
+* El uso de un pin de 5v o un pin 3.3v va a depender de la naturaleza del proyecto
+* En este caso va a depender, del voltaje con el cual el conversor USB-TTL va a alimentar al ESP32-CAM
+* `Nota:` El ESP32-CAM puede ser alimentado con 5v o 3.3v
+* Para el proyecto del Parpadeo del Led-Flash, se va a utilizar el pin de salida de 3.3v del conversor USB-TTL y el ESP32-CAM será alimentado con 3.3v
+* Se utilizará el JUMPER de color amarillo en los pines VCC y 3V3; lo cual, puede visualizar en la imagen de arriba
+
+
 
 
