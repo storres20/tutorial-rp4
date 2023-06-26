@@ -139,7 +139,8 @@ http://magicduino.com/Images/ItemsMedia/File/7279.pdf
 
 ### Conexion entre ESP32-CAM y conversor USB-TTL
 
-![image](https://github.com/storres20/tutorial-rp4/assets/81504385/a6542abc-1ead-42c5-b83d-9951b4a3867f)
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/92dde4a9-c286-4066-8ecc-b91a734ac7f0)
+
 
 
 
