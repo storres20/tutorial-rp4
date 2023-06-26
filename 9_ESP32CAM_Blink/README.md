@@ -8,3 +8,87 @@
   <h3><b>9_ESP32CAM_Blink</b></h3>
 
 </div>
+
+# Getting Started With ESP32-CAM
+
+### Link del Tutorial y Bibliografía
+```
+https://lastminuteengineers.com/getting-started-with-esp32-cam/
+```
+
+### Imagen del ESP32-CAM
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/d27fff43-2bce-4d86-be26-4dbe4103088e)
+
+## Código del Parpadeo del Led-Flash del ESP32-CAM para el IDE de ARDUINO
+
+`Nota:`
+* Este código debe ser ejecutado en el IDE de ARDUINO
+* Paso 1: Crear un nuevo sketch (Ctrl + N)
+  * En el IDE de ARDUINO, click en la pestaña File
+  * Luego click en New Sketch
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/3b2252e3-cb43-4db1-9d67-c6c6e9a5fe5e)
+
+* Paso 2: Seleccionar el Board: AI Thinker ESP32-CAM
+  * En el IDE de ARDUINO, click en la pestaña Tools
+  * Luego click en Board
+  * Click en Tools -> click en Board -> click en esp32 -> click en AI Thinker ESP32-CAM
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/a0d8645a-43fa-43d3-8460-2c542088e7e4)
+
+* Paso 3: Usar el siguiente codigo en el IDE de ARDUINO
+
+```
+int flashPin = 4;
+
+void setup() {
+    pinMode(flashPin, OUTPUT);
+}
+
+void loop() {
+    digitalWrite(flashPin, HIGH);
+    delay(1000);
+    digitalWrite(flashPin, LOW);
+    delay(1000);
+}
+```
+
+### Imagen del Código en el IDE de ARDUINO
+
+![esp32cam-flash](https://github.com/storres20/tutorial-rp4/assets/81504385/b5403178-3347-4438-995b-27d2789c9b28)
+
+`Nota:`
+* El `flashPin = 4` hace referencia al GPIO4 del ESP32-CAM
+* Prueba de ello se va a mostrar parte del archivo esquemático del ESP32-CAM
+* Link del archivo esquemático: 
+
+```
+https://docs.ai-thinker.com/_media/esp32/docs/esp32_cam_sch.pdf
+```
+
+* La señal de salida del `GPIO4` o también llamado `HS2_DATA1` del `ESP32-CAM` permite la activación o desactivación del transistor `Q1 S8050`; lo cual, permite el encendido y/o apagado del `LED_FLASH`
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/51164032-98e9-4ece-9086-c006c6e7d051)
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/77bb6338-1a6b-4cda-884f-70ec7a58ecc8)
+
+## Conversor USB a TTL
+
+* El propósito del conversor USB a TTL es lograr la comunicación entre el ESP32-CAM y la PC
+* Producto de esta comunicación, se lograría la programación del ESP32-CAM con el algoritmo deseado (parpadeo de led, cámara web, etc.) por medio del IDE de ARDUINO
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/614bf6c1-39bd-4f4a-b79a-992b13b128cd)
+
+### Imagen del conversor de USB a TTL utilizado para el presente proyecto
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/c857c7e9-1bf6-4ffa-bd97-2f1d0626eed5)
+
+Link de la documentación del conversor:
+
+```
+http://magicduino.com/Images/ItemsMedia/File/7279.pdf
+```
+
+### Jumper para 3.3v y 5v en conversor de USB a TTL
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/d974bf54-0aae-4345-ba84-ddb5f161f5f5)
+
+
