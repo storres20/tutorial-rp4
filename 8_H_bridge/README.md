@@ -51,9 +51,15 @@ https://components101.com/modules/l293n-motor-driver-module
 
 ### Pines del Raspberry PI
 
+`Nota:`
+La presente imagen muestra la distribucion de pines del Raspberry PI
+
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/eed2f39f-aba7-42af-abcc-ea8d907d2255)
 
-![image](https://github.com/storres20/tutorial-rp4/assets/81504385/eb092a54-cf34-4b7e-81a1-bc7f7a8c4c5b)
+`Nota:`
+La presente imagen muestra las conexiones de pines entre el `Puente H - L298N` y el Raspberry PI
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/847c059b-f3ef-4960-ac56-45d68fc16040)
 
 
 `PASO 3:` Se crea el archivo `puenteh.py` para el control de 02 motores DC pero no en simultaneo
@@ -123,6 +129,35 @@ motorb_reverse(seconds)
 time.sleep(seconds)
 ```
 
+`Nota:`
+* El presente comando, 1ro va a movilizar el `Motor A` hacía adelante por 01 segundo
+* Luego va a movilizar el `Motor A` hacía atrás por 01 segundo
+* Ahora va a movilizar el `Motor B` hacía adelante por 01 segundo
+* Finalmente, va a movilizar el `Motor B` hacía atrás por 01 segundo
+
+`PASO 3.1:` Ejecucion del archivo
+
+Existe 02 formas para ejecutar el presente archivo
+
+`Opcion 01:` 
+
+* Abrir el archivo `puenteh.py` en el IDE de GEANY
+* Dar click en el icono de `avion de papel`
+
+`Opcion 02:`
+
+* Abrir la Terminal
+* Ubicar en la carpeta donde se ubica el archivo `puenteh.py`
+* En la Terminal, ejecutar el siguiente comando:
+
+```
+python puenteh.py
+```
+
+`Nota:`
+* En ambas opciones, la ejecucion del archivo permitirá la movilización de los Motores DC
+
+
 `PASO 4:` Se crea el archivo `puenteh2.py` para el control de 02 motores DC en simultaneo
 
 `Nota:`
@@ -179,3 +214,31 @@ print("motorab_reverse")
 motorab_reverse(seconds)
 time.sleep(seconds)
 ```
+
+`Nota:`
+* El presente comando, 1ro va a movilizar el `Motor A` y `Motor B` hacía adelante por 01 segundo
+* Luego va a movilizar el `Motor A` y `Motor B` hacía atrás por 01 segundo
+* Ahora va a movilizar el `Motor A` y `Motor B` hacía adelante por 01 segundo
+* Finalmente, va a movilizar el `Motor A` y `Motor B` hacía atrás por 01 segundo
+
+`PASO 4.1:` Ejecucion del archivo
+
+Existe 02 formas para ejecutar el presente archivo
+
+`Opcion 01:` 
+
+* Abrir el archivo `puenteh2.py` en el IDE de GEANY
+* Dar click en el icono de `avion de papel`
+
+`Opcion 02:`
+
+* Abrir la Terminal
+* Ubicar en la carpeta donde se ubica el archivo `puenteh2.py`
+* En la Terminal, ejecutar el siguiente comando:
+
+```
+python puenteh2.py
+```
+
+`Nota:`
+* En ambas opciones, la ejecucion del archivo permitirá la movilización de los Motores DC
