@@ -39,7 +39,7 @@
 Si a los pines `7V-35V` y `GND` se les alimenta con `12V`, al estar habilitado el `5V Select Jumper`, el voltaje final de suministro al o los motores DC será de 5V
 
 `Nota`:
-Durante las pruebas de ensayo, con el `5V Select Jumper` habilitado, se ha logrado alimentar los pines `7V-35V` y `GND` con la alimentacion del Raspberry PI (Se utilizó los pines `5V Power` y `Ground`). El Raspberry PI tuvo la suficiente potencia para movilizar 02 motores DC en simultaneo
+Durante las pruebas de ensayo, con el `5V Select Jumper` habilitado, se ha logrado alimentar los pines `7V-35V` y `GND` con la alimentacion del Raspberry PI (Se utilizó los pines `5V Power` y `Ground` del Raspberry PI). El Raspberry PI tuvo la suficiente potencia para movilizar 02 motores DC en simultaneo
 
 Para mayor detalle, revisar la siguiente documentacion del `Puente H - L298N`:
 
@@ -49,6 +49,11 @@ https://components101.com/modules/l293n-motor-driver-module
 
 `PASO 2:` Conexiones entre `Puente H - L298N` y el Raspberry PI
 
+### Pines del Raspberry PI
+
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/0da3b01b-2e94-470d-b6c8-5677789ed09d)
+
+
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/eb092a54-cf34-4b7e-81a1-bc7f7a8c4c5b)
 
 
@@ -57,8 +62,6 @@ https://components101.com/modules/l293n-motor-driver-module
 `Nota:`
 
 * Los pines `GPIO17` y `GPIO22` del Raspberry PI son conectados a los pines `input1` y `input2` respectivamente del `Puente H - L298N` para el control del `Motor A`
-* Los pines `GPIO23` y `GPIO24` del Raspberry PI son conectados a los pines `input3` y `input4` respectivamente del `Puente H - L298N` para el control del `Motor B`
-* Los pines `5V Power` y `GROUND` del Raspberry PI` son conectados a los pines `7V-35V` y `GND` respectivamente del `Puente H - L298N` para la alimentacion de los Motores DC del `Puente H - L298N` para el control del `Motor A`
 * Los pines `GPIO23` y `GPIO24` del Raspberry PI son conectados a los pines `input3` y `input4` respectivamente del `Puente H - L298N` para el control del `Motor B`
 * Los pines `5V Power` y `GROUND` del Raspberry PI son conectados a los pines `7V-35V` y `GND` respectivamente del `Puente H - L298N` para la alimentacion de los Motores DC
 
