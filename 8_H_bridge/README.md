@@ -51,8 +51,7 @@ https://components101.com/modules/l293n-motor-driver-module
 
 ### Pines del Raspberry PI
 
-![image](https://github.com/storres20/tutorial-rp4/assets/81504385/0da3b01b-2e94-470d-b6c8-5677789ed09d)
-
+![image](https://github.com/storres20/tutorial-rp4/assets/81504385/eed2f39f-aba7-42af-abcc-ea8d907d2255)
 
 ![image](https://github.com/storres20/tutorial-rp4/assets/81504385/eb092a54-cf34-4b7e-81a1-bc7f7a8c4c5b)
 
